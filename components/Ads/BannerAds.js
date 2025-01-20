@@ -8,7 +8,7 @@ function BannerAds() {
     return (
         <div className="w-screen overflow-hidden">
 
-            <Script
+            {/* <Script
                 type="text/javascript"
                 src="//cdn.tsyndicate.com/sdk/v1/bi.js"
                 data-ts-spot="9d2353bb144e44528acb154218a20ded"
@@ -17,7 +17,7 @@ function BannerAds() {
                 data-ts-extid="{extid}"
                 async
                 defer
-            />
+            /> */}
 
 
             {/* Exoclick Multiformat  */}

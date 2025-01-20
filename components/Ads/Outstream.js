@@ -16,7 +16,7 @@ function Outstreams() {
         <div className="">
             <div id="ts_ad_video_1lcvn"></div>
 
-            <Script src="//cdn.tsyndicate.com/sdk/v1/outstream.video.js" strategy="beforeInteractive" />
+            {/* <Script src="//cdn.tsyndicate.com/sdk/v1/outstream.video.js" strategy="beforeInteractive" />
             <Script
                 id={uniqid}
                 dangerouslySetInnerHTML={{
@@ -27,7 +27,7 @@ function Outstreams() {
                          extid: "{extid}",
                     });`,
                 }}
-            />
+            /> */}
 
 
 
