@@ -33,15 +33,15 @@ function Category({ video_collection, pages }) {
     <>
 
       <Head>
-        <title>{capitalizeFirstLetter(category)} sex videos | Xhamster</title>
-        <meta name="description" content={`Watch free collection of ${capitalizeFirstLetter(category)} sex videos, ${category} porn videos, latest ${category} videos in high quality only on Xhamster.`} />
+        <title>{capitalizeFirstLetter(category)} sex videos | CumCraze</title>
+        <meta name="description" content={`Watch free collection of ${capitalizeFirstLetter(category)} sex videos, ${category} porn videos, latest ${category} videos in high quality only on CumCraze.`} />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 
-        <meta property="og:title" content={`${capitalizeFirstLetter(category)} sex videos | Xhamster`} />
-        <meta property="og:description" content={`Watch free collection of ${capitalizeFirstLetter(category)} sex videos, ${category} porn videos, latest ${category} videos in high quality only on Xhamster.`} />
-        <meta name="twitter:title" content={`${capitalizeFirstLetter(category)} sex videos | Xhamster`} />
-        <meta name="twitter:description" content={`Watch free collection of ${capitalizeFirstLetter(category)} sex videos, ${category} porn videos, latest ${category} videos in high quality only on Xhamster.`} />
-        <link rel="canonical" href={`https://www.Xhamster.gg/category/${category}`} />
+        <meta property="og:title" content={`${capitalizeFirstLetter(category)} sex videos | CumCraze`} />
+        <meta property="og:description" content={`Watch free collection of ${capitalizeFirstLetter(category)} sex videos, ${category} porn videos, latest ${category} videos in high quality only on CumCraze.`} />
+        <meta name="twitter:title" content={`${capitalizeFirstLetter(category)} sex videos | CumCraze`} />
+        <meta name="twitter:description" content={`Watch free collection of ${capitalizeFirstLetter(category)} sex videos, ${category} porn videos, latest ${category} videos in high quality only on CumCraze.`} />
+        <link rel="canonical" href={`https://www.cumcraze.com/category/${category}`} />
       </Head>
 
 

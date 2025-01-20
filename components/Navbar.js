@@ -175,7 +175,7 @@ function Navbar() {
                                 <div className='flex items-center space-x-1' >
 
                                     <Link href='/'>
-                                        <img src='/logo.png' alt="logo" className='w-[200px]' />
+                                        <img src='/logo.png' alt="logo" className='w-[150px]' />
                                     </Link>
                                     {location &&
                                         <div className='cursor-pointer' onClick={handleClickFlag}>
@@ -417,7 +417,7 @@ function Navbar() {
                     <div className='flex items-center space-x-1 md:space-x-3  ml-2' >
 
                         <Link href='/'>
-                            <img src='/logo.png' alt="logo" className='w-[250px]' />
+                            <img src='/logo.png' alt="logo" className='w-[150px]' />
                         </Link>
                         {location &&
 

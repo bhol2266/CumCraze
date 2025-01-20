@@ -84,14 +84,14 @@ function Index() {
 
         <div className="basicMargin mt-2">
             <Head>
-                <title>The Hottest Pornstars: Watch Free Top Porn Star Videos on xHamster</title>
-                <meta name="description" content="Discover the hottest adult film stars and models on the largest FREE adult tube at xHamster.com. Enjoy a wide selection of stunning babes ready to please you 24/7!" />
+                <title>The Hottest Pornstars: Watch Free Top Porn Star Videos on CumCraze</title>
+                <meta name="description" content="Discover the hottest adult film stars and models on the largest FREE adult tube at CumCraze.com. Enjoy a wide selection of stunning babes ready to please you 24/7!" />
 
-                <meta property="og:title" content="The Hottest Pornstars: Watch Free Top Porn Star Videos on xHamster" />
-                <meta property="og:description" content="Discover the hottest adult film stars and models on the largest FREE adult tube at xHamster.com. Enjoy a wide selection of stunning babes ready to please you 24/7!" />
-                <meta name="twitter:title" content="The Hottest Pornstars: Watch Free Top Porn Star Videos on xHamster" />
-                <meta name="twitter:description" content="Discover the hottest adult film stars and models on the largest FREE adult tube at xHamster.com. Enjoy a wide selection of stunning babes ready to please you 24/7!" />
-                <link rel="canonical" href={`https://www.xHamster.gg/pornstar`} />
+                <meta property="og:title" content="The Hottest Pornstars: Watch Free Top Porn Star Videos on CumCraze" />
+                <meta property="og:description" content="Discover the hottest adult film stars and models on the largest FREE adult tube at CumCraze.com. Enjoy a wide selection of stunning babes ready to please you 24/7!" />
+                <meta name="twitter:title" content="The Hottest Pornstars: Watch Free Top Porn Star Videos on CumCraze" />
+                <meta name="twitter:description" content="Discover the hottest adult film stars and models on the largest FREE adult tube at CumCraze.com. Enjoy a wide selection of stunning babes ready to please you 24/7!" />
+                <link rel="canonical" href={`https://www.cumcraze.com/pornstar`} />
 
             </Head>
 
