@@ -72,20 +72,20 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="/logo.png" />
-        <meta name="google-site-verification" content="3xvgXxQ4cIIVGrkT06JZdF2kjYXTdcZKCeZYLIBBMEQ" />
-        <meta name="clckd" content="989abd1ff7e1399f3e4fc8bef01007d3" />
-        <meta name="6a97888e-site-verification" content="a08d328f200c660d81b1e7a9240a01d5" />      </Head>
+        <meta name="google-site-verification" content="5bmDIAdqG7HcXQrSN-BY_tmL_xCdKpUu3nBllWSIHC0" />        <meta name="clckd" content="989abd1ff7e1399f3e4fc8bef01007d3" />
+        <meta name="6a97888e-site-verification" content="b128e05ebe1ea64f4612ad40ffa77b98" />
+      </Head>
 
       <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-BFJSRDR97D"
+        src="https://www.googletagmanager.com/gtag/js?id=G-XPGYPL8LEN"
       />
 
       <Script id="gtm-script" strategy="afterInteractive">
         {` window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-BFJSRDR97D');`}
+        gtag('config', 'G-XPGYPL8LEN');`}
       </Script>
 
       <AuthContextProvider>
