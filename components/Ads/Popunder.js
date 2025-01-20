@@ -22,7 +22,7 @@ function PopunderAds() {
                 // <Script
                 //     type="text/javascript"
                 //     src="//cdn.tsyndicate.com/sdk/v1/p.js"
-                //     data-ts-spot="637f41ccc95a46769276024b3fe07174"
+                //     data-ts-spot="f2a620cec4b04527ad64dae7221354ce"
                 //     data-ts-extid="{extid}"
                 //     data-ts-session-duration="300"
                 //     data-ts-count="5"
@@ -32,20 +32,16 @@ function PopunderAds() {
                 //     defer
                 // />
 
-                //Exoclick ads
+//Exoclick ads
                 <>
-                    {/* <Script
-                        src="//diagramjawlineunhappy.com/t/9/fret/meow4/2051092/9e0e999e.js" strategy="lazyOnload"
+                    <Script
+                        src="/popunderAds.js"
+                        strategy="lazyOnload"
                         onLoad={() => {
                             console.log("Popunder Ad configuration script loaded successfully.");
                         }}
-                    /> */}
+                    />
 
-                    {/* <Script
-                        src="//diagramjawlineunhappy.com/t/9/fret/meow4/2051092/9e0e999e.js"
-                        data-cfasync="false"
-                        strategy="afterInteractive"
-                    /> */}
                 </>
 
             )}

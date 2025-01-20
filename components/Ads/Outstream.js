@@ -21,7 +21,7 @@ function Outstreams() {
                 id={uniqid}
                 dangerouslySetInnerHTML={{
                     __html: ` TSOutstreamVideo({
-                        spot: "1db617858c5f4d1ca2523ba428223699",
+                        spot: "4207bed0c7f14a47b43f92c2fff17111",
                         containerId: "ts_ad_video_1lcvn",
                         cookieExpires: "4",
                          extid: "{extid}",
@@ -31,16 +31,15 @@ function Outstreams() {
 
 
 
-
             {/* Exoclick Ad   */}
-            {/* <ins className="eas6a97888e37" data-zoneid="5500686"></ins>
+            <ins className="eas6a97888e37" data-zoneid="5520082"></ins>
             <Script src="https://a.magsrv.com/ad-provider.js" strategy="beforeInteractive" />
             <Script
                 id={uniqid}
                 dangerouslySetInnerHTML={{
                     __html: `  (AdProvider = window.AdProvider || []).push({"serve": {}});`,
                 }}
-            /> */}
+            />
 
 
         </div>

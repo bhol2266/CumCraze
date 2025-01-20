@@ -5,7 +5,7 @@
     var adConfig = {
     "ads_host": "a.pemsrv.com",
     "syndication_host": "s.pemsrv.com",
-    "idzone": 5500684,
+    "idzone": 5520088,
     "popup_fallback": false,
     "popup_force": false,
     "chrome_enabled": true,
