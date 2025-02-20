@@ -21,7 +21,7 @@ function Outstreams() {
                 id={uniqid}
                 dangerouslySetInnerHTML={{
                     __html: ` TSOutstreamVideo({
-                        spot: "1db617858c5f4d1ca2523ba428223699",
+                        spot: "b67a0e50f3504aabbe7f100edbbc30c3",
                         containerId: "ts_ad_video_1lcvn",
                         cookieExpires: "4",
                          extid: "{extid}",
