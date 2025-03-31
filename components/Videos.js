@@ -10,6 +10,7 @@ import InterstitialAds from "./Ads/InterstitialAds";
 import PopunderAds from "./Ads/Popunder";
 
 function Videos({ data, type }) {
+    
 
     const { viewType, setViewType } = useContext(videosContext);
 

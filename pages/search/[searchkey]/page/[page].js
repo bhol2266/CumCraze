@@ -13,9 +13,7 @@ function Search({ video_collection, pages }) {
     const router = useRouter();
     const { searchkey, page } = router.query
 
-    function getcurrentyear() {
-        return new Date().getFullYear();
-      }
+
 
     const currentPageNumberURL = page
 
@@ -38,13 +36,13 @@ function Search({ video_collection, pages }) {
 
                 <title>{`${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} Porn Videos - CumCraze | ${currentPageNumberURL}`}</title>
 
-                <meta name="description" content={`Watch ${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} porn videos. Explore tons of XXX movies with sex scenes in ${getcurrentyear()} on CumCraze!`} />
+                <meta name="description" content={`Watch ${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} porn videos. Explore tons of XXX movies with sex scenes in on CumCraze!`} />
 
 
                 <meta property="og:title" content={`${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} Porn Videos - CumCraze | ${currentPageNumberURL}`} />
-                <meta property="og:description" content={`Watch ${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} porn videos. Explore tons of XXX movies with sex scenes in ${getcurrentyear()} on CumCraze!`} />
+                <meta property="og:description" content={`Watch ${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} porn videos. Explore tons of XXX movies with sex scenes in on CumCraze!`} />
                 <meta name="twitter:title" content={`${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} Porn Videos - CumCraze | ${currentPageNumberURL}`} />
-                <meta name="twitter:description" content={`Watch ${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} porn videos. Explore tons of XXX movies with sex scenes in ${getcurrentyear()} on CumCraze!`} />
+                <meta name="twitter:description" content={`Watch ${capitalizeFirstLetter(searchkey.replace('+', " ").replace("+", " "))} porn videos. Explore tons of XXX movies with sex scenes in on CumCraze!`} />
                 <link rel="canonical" href={`https://www.cumcraze.com/search/${searchkey}/page/${page}`} />
 
 
@@ -88,7 +86,7 @@ export async function getServerSideProps(context) {
 
         const parcelData = { url: `https://spankbang.party/s/${searchkey.toLowerCase().trim()}/${page}/?o=all` };
 
-        const API_URL = `${process.env.BACKEND_URL}getvideos`;
+        const API_URL = `${process.env.BACKEND_URL}getVideos`;
 
         const rawResponse = await fetch(API_URL, {
             headers: {
