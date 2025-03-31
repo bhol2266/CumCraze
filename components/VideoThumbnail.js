@@ -71,10 +71,10 @@ function VideoThumbnail({ details, type }) {
         }
         if (video.refrenceLinkType == "creator") {
 
-            const pornstarCode = channelHref.substring(1, channelHref.indexOf("/pornstar"))
-            const pornstarName = channelHref.substring(channelHref.indexOf("/pornstar/") + 10, channelHref.length - 1)
-            return `/pornstar/${pornstarCode}/${pornstarName}`
+            const creatorCode = channelHref.substring(1, channelHref.indexOf("/creator"))
+            const creatorName = channelHref.substring(channelHref.indexOf("/creator/") + 9, channelHref.length - 1)
 
+            return `/creators/${creatorCode}/${creatorName}`
         }
         if (video.refrenceLinkType == "pornstar") {
             const pornstarCode = channelHref.substring(1, channelHref.indexOf("/pornstar"))
