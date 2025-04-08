@@ -287,7 +287,7 @@ export default function Home({ finalDataArray, trendingChannels, tags, trendingP
 
 
 
-          {TrendingCreators &&
+          {TrendingCreators.length != 0 &&
             <div className='md:hidden'>
               <Homepage_Title title="Trending Creators" />
               <Creators_slider trendingCreators={TrendingCreators} />
