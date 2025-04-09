@@ -8,34 +8,26 @@ const plans = [
         duration: "1 month",
         offer: "",
         price: "$2.99",
-        amount: "251",
-        type: "month",
-        planCode: "1M"
+        type: "month"
     },
     {
         duration: "3 months",
         offer: "20% OFF",
         price: "$4.99",
-        amount: "420",
-        type: "month",
-        planCode: "3M"
+        type: "month"
     },
     {
         duration: "12 months",
         offer: "40% OFF",
         price: "$9.99",
-        type: "month",
-        amount: "840",
-        planCode: "12M"
+        type: "month"
     },
 
     {
         duration: "Lifetime",
         offer: "USE FOREVER",
         price: "$19.99",
-        amount: "1680",
-        type: "once",
-        planCode: "LIFETIME"
+        type: "once"
     },
 ]
 
