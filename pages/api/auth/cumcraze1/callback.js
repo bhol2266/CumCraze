@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
-  const redirectUri = "https://www.chutlunds.com/api/auth/chutlunds/callback"; // Make sure this matches your registered URI
+  const redirectUri = "https://www.cumcraze1.com/api/auth/cumcraze1/callback"; // Make sure this matches your registered URI
 
   if (!code) {
     return res.status(400).json({ error: 'No code provided' });
@@ -48,8 +48,7 @@ export default async function handler(req, res) {
 
     const userData = await userResponse.json();
 
-
-    await fetch(`http://www.chutlunds.com/api/auth/saveProfileFirestore`, {
+    await fetch(`http://www.cumcraze1.com/api/auth/saveProfileFirestore`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -61,15 +60,14 @@ export default async function handler(req, res) {
       }),
     });
 
-
-    // Set cookies
-    res.setHeader('Set-Cookie', [
-      serialize('email', userData.email, { maxAge: 900000, path: '/' }),
-      serialize('membership', false, { maxAge: 900000, path: '/' }),
-      serialize('Firstname', userData.name.trim().split(' ')[0], { maxAge: 900000, path: '/' }),
-      serialize('countryUpdated_DB', 'false', { maxAge: 900000, path: '/' }),
-      serialize('account', 'google', { maxAge: 900000, path: '/' }),
-    ]);
+      // Set cookies
+      res.setHeader('Set-Cookie', [
+        serialize('email', userData.email, { maxAge: 900000, path: '/' }),
+        serialize('membership', false, { maxAge: 900000, path: '/' }),
+        serialize('Firstname', userData.name.trim().split(' ')[0], { maxAge: 900000, path: '/' }),
+        serialize('countryUpdated_DB', 'false', { maxAge: 900000, path: '/' }),
+        serialize('account', 'google', { maxAge: 900000, path: '/' }),
+      ]);
 
     // Redirect to homepage
     res.redirect('/');
