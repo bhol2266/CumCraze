@@ -92,11 +92,12 @@ function VideoThumbnail({ details, type }) {
 
 
         <div>
-            <a className="block" href={type != "premium" ? `/video/${keyy}*${title}` : "/membership"} onClick={onClickHandler}>
+            <a className="block" href={type != "premium" ? `/video/${keyy}*${title}` : `/video/${keyy}*${title}`} onClick={onClickHandler}>
 
                 <div className="animate-fade flex flex-col items-start justify-center cursor-pointer rounded-md overflow-hidden transform transition duration-150 mb-3 2xl:mb-4">
                     <div className={`relative w-full overflow-hidden ${viewType === "grid" ? "aspect-custom md:aspect-video" : "aspect-video"}`}>
-                        <img
+                        <imgNeed moti suddi
+
                             className="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-300 ease-in-out"
                             src={video.thumbnail}
                             alt="Video Thumbnail"
