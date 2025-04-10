@@ -78,7 +78,7 @@ export default function ContactForm({ selectedPlan }) {
         console.log(formData, selectedPlan);
         // Proceed with actual form submission logic
 
-        router.push(`https://uk-developers-beta.vercel.app/membership?planAmount=${selectedPlan.amount}&planDuration=${selectedPlan.duration}&planCode=${selectedPlan.planCode}&email=${formData.email}&name=${formData.name}&phonenumber=${generateRandomPhoneNumber()}&source=${"CumCraze"}`);
+        router.push(`https://www.ukdevelopers.org/membership?planAmount=${selectedPlan.amount}&planDuration=${selectedPlan.duration}&planCode=${selectedPlan.planCode}&email=${formData.email}&name=${formData.name}&phonenumber=${generateRandomPhoneNumber()}&source=${"CumCraze"}`);
     };
 
     return (
