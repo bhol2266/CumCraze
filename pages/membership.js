@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import ModalMembership from '../components/ModalMembership'
 import videosContext from '../context/videos/videosContext'
 import { useRouter } from 'next/router'
-import ContactForm from '../components/ContactForm'
 const features = [
     {
         img: "/membership/noads.png",
@@ -193,7 +192,6 @@ const Membership = () => {
 
                 {/* <ModalMembership /> */}
 
-                <ContactForm selectedPlan={selectedPlan} />
 
 
             </div>
