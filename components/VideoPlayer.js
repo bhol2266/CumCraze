@@ -17,7 +17,7 @@ import { UserAuth } from "../context/AuthContext";
 import VideoThumbnail from './VideoThumbnail';
 import { useMediaQuery } from 'react-responsive';
 import Link from 'next/link';
-
+import {isMembershipActive} from '../config/utils';
 
 
 
@@ -104,9 +104,13 @@ const VideoPlayer = ({ video_details, Qualitys, videolink_qualities_screenshots,
 
     const download = () => {
 
-        // router.push(VideoSrc)
-        router.push("/membership")
+        const active = isMembershipActive();
+        if (active) {
+            router.push(VideoSrc)
 
+        } else {
+            router.push("/membership")
+        }
 
     }
 
