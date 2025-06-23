@@ -75,6 +75,8 @@ const Membership = () => {
     const router = useRouter()
     useEffect(() => {
 
+        setSelectedPlan(plans[0]);
+
         const handleResize = () => {
             const width = window.innerWidth
             setwidth(width)
