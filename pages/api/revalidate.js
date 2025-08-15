@@ -10,6 +10,7 @@ export default async function handler(req, res) {
     await res.revalidate('/')
     await res.revalidate('/search')
     await res.revalidate('/channels')
+    await res.revalidate('/pornstar')
 
 
 
